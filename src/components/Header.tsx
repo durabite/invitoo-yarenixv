@@ -30,8 +30,8 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Heart className={`${isScrolled ? 'text-white' : 'text-[#0047AB]'} mr-2`} size={24} />
-          <h1 className={`font-serif text-xl md:text-2xl ${isScrolled ? 'text-white' : 'text-[#0047AB]'}`}>
+          <Heart className={`${isScrolled ? 'text-white' : 'text-white'} mr-2`} size={24} />
+          <h1 className={`font-serif text-xl md:text-2xl ${isScrolled ? 'text-white' : 'text-white'}`}>
             Mis XV Años
           </h1>
         </div>
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                 <a
                   href={`#${item.toLowerCase()}`}
                   className={`font-medium hover:text-[#D4AF37] transition-colors ${
-                    isScrolled ? 'text-white' : 'text-[#0047AB]'
+                    isScrolled ? 'text-white' : 'text-white'
                   }`}
                 >
                   {item}
@@ -61,9 +61,9 @@ const Header: React.FC = () => {
           aria-label="Toggle menu"
         >
           {isMobileMenuOpen ? (
-            <X className={isScrolled ? 'text-white' : 'text-[#0047AB]'} size={24} />
+            <X className={isScrolled ? 'text-white' : 'text-white'} size={24} />
           ) : (
-            <Menu className={isScrolled ? 'text-white' : 'text-[#0047AB]'} size={24} />
+            <Menu className={isScrolled ? 'text-white' : 'text-white'} size={24} />
           )}
         </button>
       </div>

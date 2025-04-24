@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import CountDown from './components/CountDown';
 import EventInfo from './components/EventInfo';
 import Gallery from './components/Gallery';
 import RSVP from './components/RSVP';
@@ -40,6 +41,7 @@ function App() {
     <div className="antialiased">
       <Header />
       <Hero />
+      <CountDown />
       <EventInfo />
       <Gallery />
       <RSVP />

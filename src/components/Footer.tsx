@@ -24,11 +24,17 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-serif mb-2">Sofía Anahí</h2>
-            <div className="flex items-center justify-center">
-              <Heart className="text-[#D4AF37] mx-1" size={16} />
-              <p>25 de Noviembre, 2025</p>
-              <Heart className="text-[#D4AF37] mx-1" size={16} />
+            <div className="flex flex-col items-center justify-center">
+              <div className="flex items-center justify-center mb-2">
+                <Heart className="text-[#D4AF37] mx-1" size={16} />
+                <p>19 de Julio, 2025</p>
+                <Heart className="text-[#D4AF37] mx-1" size={16} />
+              </div>
+              <img 
+                src="/images/yareni-firma.png" 
+                alt="Firma de Yareni" 
+                className="max-w-[200px] h-auto" 
+              />
             </div>
           </div>
           
@@ -49,8 +55,12 @@ const Footer: React.FC = () => {
             </a>
           </div>
           
-          <div className="text-sm text-gray-300">
-            <p>© 2025 | Mis XV Años - Sofía Anahí</p>
+          <div className="text-center w-full text-sm text-gray-300">
+            <div className="flex items-center justify-center">
+              <span>&copy; 2025 | Mis XV Años - Con</span>
+              <Heart className="text-[#D4AF37] mx-1" size={14} />
+              <span>Yereni</span>
+            </div>
           </div>
         </div>
       </div>
