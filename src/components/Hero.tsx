@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: "url('images/bg-bosque.png')",
+          backgroundImage: "url('images/bg-xv.jpg')",
           filter: "brightness(0.4)"
         }}
       ></div>
@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
           Te invito a celebrar conmigo
         </h2>
         
-        <h3 className="text-xl text-[#D4AF37] mb-4">Mis Quince Años</h3>
+        <h3 className="text-xl text-[#D4AF37] mb-4">Mis XV Años</h3>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
           {invitationData.celebrant.name}

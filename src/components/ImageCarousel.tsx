@@ -5,9 +5,7 @@ const images = [
   '/images/slider01.jpg',
   '/images/slider02.jpg',
   '/images/slider03.jpg',
-  '/images/slider04.jpg',
-  '/images/slider05.jpg',
-  '/images/slider06.jpg'
+  '/images/slider04.jpg'
 ];
 
 const ImageCarousel: React.FC = () => {

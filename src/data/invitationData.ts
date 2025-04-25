@@ -44,5 +44,5 @@ export const invitationData = {
     godfather: "Alfredo Rodríguez Juárez",
     godmother: "Erendira Ruiz González"
   },
-  whatsapp: "+1234567890" // Replace with actual WhatsApp number
+  whatsapp: "5514874240" // Replace with actual WhatsApp number
 }

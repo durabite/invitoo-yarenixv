@@ -40,14 +40,14 @@ const Footer: React.FC = () => {
           
           <div className="flex space-x-4 mb-8">
             <a
-              href="#"
+              href="https://www.instagram.com/yare.figu"
               className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4AF37] transition-colors"
               aria-label="Instagram"
             >
               <Instagram size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/Verorug"
               className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4AF37] transition-colors"
               aria-label="Facebook"
             >
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center justify-center">
               <span>&copy; 2025 | Mis XV Años - Con</span>
               <Heart className="text-[#D4AF37] mx-1" size={14} />
-              <span>Yereni</span>
+              <span>Yareni</span>
             </div>
           </div>
         </div>
