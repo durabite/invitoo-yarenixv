@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Change the document title
-    document.title = "Mis XV Años - Sofía Anahí";
+    document.title = "Mis XV Años - Yareni Figueroa Ruiz";
     
     // Add custom font from Google Fonts
     const link = document.createElement('link');
